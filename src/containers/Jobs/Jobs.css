@@ -1,5 +1,8 @@
 .jobs__container {
   width: 1110px;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 5rem;
+  gap: 1.8rem;
 }
