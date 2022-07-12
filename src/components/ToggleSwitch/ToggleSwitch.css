@@ -1,0 +1,44 @@
+.toggle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: 9.5rem;
+}
+
+.toggle img {
+  width: 20px;
+  height: 18.6px;
+}
+
+.toggle-switch {
+  width: 48px;
+  height: 24px;
+  background-color: var(--color-white);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.toggle-switch-circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-top: 0.3rem;
+  margin-left: 0.4rem;
+  background-color: var(--color-violet);
+  transition: transform 0.3s ease;
+}
+
+.toggle-switch input[type='checkbox']:checked + .toggle-switch-circle {
+  transform: translateX(22px);
+}
+
+.toggle-switch-circle:hover {
+  cursor: pointer;
+  background-color: var(--color-light-violet);
+}
+
+.toggle-checkbox {
+  display: none;
+}
