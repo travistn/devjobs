@@ -5,3 +5,7 @@
   scroll-behavior: smooth;
   font-family: 'Kumbh Sans', sans-serif;
 }
+
+body {
+  background-color: var(--color-light-gray);
+}

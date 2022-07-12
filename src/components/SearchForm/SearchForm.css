@@ -1,0 +1,127 @@
+.form__container {
+  width: 1110px;
+  height: 80px;
+  margin: auto;
+  background-color: var(--color-white);
+  margin-top: -2rem;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.form {
+  max-width: 1110px;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-left {
+  width: 450px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 2rem;
+  gap: 1rem;
+}
+
+.form-left img {
+  width: 24px;
+  height: 24px;
+}
+
+.form-left input {
+  width: 450px;
+  height: 80px;
+  border-style: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form-left input::placeholder {
+  color: var(--color-very-dark-blue);
+  opacity: 0.9;
+}
+
+.form-middle {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 2rem;
+  gap: 1rem;
+}
+
+.form-middle img {
+  width: 24px;
+  height: 24px;
+}
+
+.form-middle input {
+  width: 300px;
+  height: 80px;
+  border-style: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form-middle input::placeholder {
+  color: var(--color-very-dark-blue);
+  opacity: 0.9;
+}
+
+.form-right {
+  display: flex;
+  align-items: center;
+  width: 359px;
+  height: 80px;
+  border-style: none;
+  outline: none;
+  padding-left: 2rem;
+  gap: 1rem;
+}
+
+.form-right input {
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  accent-color: var(--color-violet);
+}
+
+.form-right input:hover {
+  cursor: pointer;
+}
+
+.form-right p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form-right button {
+  width: 123px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: var(--color-violet);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-white);
+  border-style: none;
+}
+
+.form-right button:hover {
+  cursor: pointer;
+  background-color: var(--color-light-violet);
+}
+
+.form-divider {
+  width: 1px;
+  height: 80px;
+  background-color: var(--color-dark-gray);
+  opacity: 0.2;
+}
