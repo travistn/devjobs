@@ -1,0 +1,124 @@
+.jobPosting__container {
+  width: 730px;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 3rem;
+  border-radius: 6px;
+  background-color: var(--color-white);
+}
+
+.jobPosting__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 639px;
+  height: 87px;
+}
+
+.jobPosting__top-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.jobPosting__top-details p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  gap: 0.8rem;
+  color: var(--color-dark-gray);
+}
+
+.jobPosting__top-details span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: var(--color-dark-gray);
+}
+
+.jobPosting__top-details h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: var(--color-very-dark-blue);
+}
+
+.jobPosting__top-details h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--color-violet);
+}
+
+.jobPosting__top button {
+  width: 141px;
+  height: 48px;
+  margin-left: auto;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  border-style: none;
+  background-color: var(--color-violet);
+  color: var(--color-white);
+}
+
+.jobPosting-description {
+  width: 639px;
+  margin-top: 2.5rem;
+}
+
+.jobPosting-description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-dark-gray);
+}
+
+.jobPosting-requirements {
+  width: 639px;
+  margin-top: 1.5rem;
+}
+
+.jobPosting-requirements h3 {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--color-very-dark-blue);
+}
+
+.jobPosting-requirements p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-dark-gray);
+}
+
+.jobPosting-role {
+  width: 639px;
+  margin-top: 1.5rem;
+}
+
+.jobPosting-role h3 {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--color-very-dark-blue);
+}
+
+.jobPosting-role p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-dark-gray);
+}
