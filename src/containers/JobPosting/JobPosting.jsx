@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import JobPostingHeader from '../../components/JobPostingHeader/JobPostingHeader';
 import './JobPosting.css';
@@ -49,6 +50,7 @@ const JobPosting = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
