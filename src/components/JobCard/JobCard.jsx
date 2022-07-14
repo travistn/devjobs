@@ -7,7 +7,7 @@ const JobCard = ({ job }) => {
     <div className='jobCard'>
       <div className='jobCard-company' style={{ backgroundColor: job.logoBackground }}>
         <img
-          src={require(`../../assets/logos/${job.company.split(' ').join('').toLowerCase()}.svg`)}
+          src={`/assets/logos/${job.company.split(' ').join('').toLowerCase()}.svg`}
           alt='company-logo'
         />
       </div>
