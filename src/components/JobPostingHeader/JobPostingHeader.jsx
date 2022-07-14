@@ -1,17 +1,19 @@
 import React from 'react';
 
 import './JobPostingHeader.css';
-import scootLogo from '../../assets/logos/scoot.svg';
 
-const JobPostingHeader = () => {
+const JobPostingHeader = ({ job }) => {
   return (
     <div className='jobPostingHeader__container'>
-      <div className='jobPostingHeader-logo'>
-        <img src={scootLogo} alt='logo' />
+      <div className='jobPostingHeader-logo' style={{ backgroundColor: job.logoBackground }}>
+        <img
+          src={`/assets/logos/${job?.company?.split(' ').join('').toLowerCase()}.svg`}
+          alt='logo'
+        />
       </div>
       <div className='jobPostingHeader-company'>
-        <h3>Scoot</h3>
-        <p>scoot.com</p>
+        <h3>{job.company}</h3>
+        <p>{`${job?.company?.split(' ').join('').toLowerCase()}.com`}</p>
       </div>
       <button>Company Site</button>
     </div>
