@@ -19,6 +19,7 @@
   border-radius: 15px;
   margin-top: -3.5rem;
   padding: 0.2rem;
+  cursor: pointer;
 }
 
 .jobCard-company img {
@@ -48,6 +49,11 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
+}
+
+.jobCard h2:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .jobCard h4 {

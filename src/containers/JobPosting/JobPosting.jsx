@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
@@ -6,11 +7,13 @@ import JobPostingHeader from '../../components/JobPostingHeader/JobPostingHeader
 import './JobPosting.css';
 
 const JobPosting = ({ job }) => {
+  const { jobId } = useParams();
+
   return (
     <>
       <Header />
       <JobPostingHeader job={job} />
-      <div className='jobPosting__container'>
+      <div className='jobPosting__container' key={jobId}>
         <div className='jobPosting__top'>
           <div className='jobPosting__top-details'>
             <p>
