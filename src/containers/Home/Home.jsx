@@ -5,12 +5,12 @@ import SearchForm from '../../components/SearchForm/SearchForm';
 import Jobs from '../Jobs/Jobs';
 import './Home.css';
 
-const Home = () => {
+const Home = ({ jobs }) => {
   return (
     <div className='home'>
       <Header />
-      <SearchForm />
-      <Jobs />
+      <SearchForm jobs={jobs} />
+      <Jobs jobs={jobs} />
     </div>
   );
 };
