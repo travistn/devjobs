@@ -7,7 +7,7 @@
   margin-top: 3rem;
   padding: 3rem;
   border-radius: 6px;
-  background-color: var(--color-white);
+  background-color: var(--bg-secondary);
 }
 
 .jobPosting__top {
@@ -46,7 +46,7 @@
   font-weight: 700;
   font-size: 28px;
   line-height: 35px;
-  color: var(--color-very-dark-blue);
+  color: var(--text-primary);
 }
 
 .jobPosting__top-details h5 {
@@ -98,7 +98,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
-  color: var(--color-very-dark-blue);
+  color: var(--text-primary);
 }
 
 .jobPosting-requirements p {
@@ -139,7 +139,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
-  color: var(--color-very-dark-blue);
+  color: var(--text-primary);
 }
 
 .jobPosting-role p {

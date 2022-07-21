@@ -7,7 +7,7 @@
   margin: auto;
   margin-top: -2rem;
   border-radius: 6px;
-  background-color: var(--color-white);
+  background-color: var(--bg-secondary);
 }
 
 .jobPostingHeader-logo {
@@ -36,7 +36,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  color: var(--color-very-dark-blue);
+  color: var(--text-primary);
 }
 
 .jobPostingHeader-company p {
@@ -44,7 +44,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: var(--color-dark-gray);
+  color: var(--text-secondary);
 }
 
 .jobPostingHeader__container button {
@@ -58,11 +58,11 @@
   text-align: center;
   border-radius: 5px;
   border-style: none;
-  background-color: rgb(89, 100, 224, 0.1);
-  color: var(--color-violet);
+  background-color: var(--button-primary);
+  color: var(--button-text-primary);
 }
 
 .jobPostingHeader__container button:hover {
   cursor: pointer;
-  background-color: rgb(89, 100, 224, 0.35);
+  background-color: var(--button-secondary);
 }

@@ -30,7 +30,7 @@
   transition: transform 0.3s ease;
 }
 
-.toggle-switch input[type='checkbox']:checked + .toggle-switch-circle {
+.toggle-switch input[type='checkbox']:checked {
   transform: translateX(22px);
 }
 
@@ -41,4 +41,12 @@
 
 .toggle-checkbox {
   display: none;
+}
+
+.light-toggle {
+  transform: translateX(1px);
+}
+
+.dark-toggle {
+  transform: translateX(22px);
 }

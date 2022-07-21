@@ -3,11 +3,14 @@ import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';
 import App from './App';
+import { ThemeProvider } from './contexts/Theme';
 
 const root = createRoot(document.getElementById('root'));
 
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <ThemeProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </ThemeProvider>
 );

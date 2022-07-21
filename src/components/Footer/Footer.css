@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   margin-top: 4rem;
-  background-color: var(--color-white);
+  background-color: var(--bg-secondary);
   border-radius: 6px;
 }
 
@@ -25,14 +25,14 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
-  color: var(--color-very-dark-blue);
+  color: var(--text-primary);
 }
 
 .footer-details h5 {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: var(--color-dark-gray);
+  color: var(--text-secondary);
 }
 
 .footer button {
